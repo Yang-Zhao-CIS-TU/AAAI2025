@@ -22,3 +22,4 @@ It enables conditional sampling from a pre-trained unconditional score-based gen
 
 (4) Broad Applicability: The method is evaluated across tabular data, images, and time series, demonstrating its effectiveness in approximating various conditional distributions.
 
+3. Every Component Counts: Rethinking the Measure of Success for Medical Semanti Segmentation in Multi-Instance Segmentation Tasks: https://arxiv.org/abs/2410.18684
