@@ -9,3 +9,12 @@ Boosting ViT-based MRI Reconstruction from the Perspectives of Frequency Modulat
 
 (3) Improving Multi-Scale Feature Representation: The naive feed-forward network (FFN) in ViTs lacks the ability to capture multi-scale information. FPS-Former integrates a Hybrid-Scale Fusion Strategy in the FFN to enhance feature learning across different scales.
 
+2. Conditioning of Score-Based Diffusion Models by Neuro-Symbolic Constraints: https://arxiv.org/pdf/2308.16534
+
+It enables conditional sampling from a pre-trained unconditional score-based generative model under arbitrary logical constraints, without requiring additional training. Unlike other zero-shot techniques that focus on generating valid conditional samples, this approach aims to approximate the true conditional distribution.
+
+(1) Score Manipulation for Conditional Sampling: The method modifies the learned score function to sample from an unnormalized conditional distribution based on user-defined constraints.
+(2) Neuro-Symbolic Framework for Constraints: A flexible and numerically stable approach is introduced to encode soft logical constraints.
+(3) Heuristic Refinements: Additional heuristics improve the accuracy of the approximation.
+(4) Broad Applicability: The method is evaluated across tabular data, images, and time series, demonstrating its effectiveness in approximating various conditional distributions.
+
