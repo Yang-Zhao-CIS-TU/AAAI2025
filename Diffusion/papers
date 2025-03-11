@@ -1,4 +1,11 @@
-1. Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation
+1. Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation. https://arxiv.org/pdf/2406.02347
 code: https://github.com/gojasper/flash-diffusion
 
+The proposed method is an efficient, fast, and versatile distillation approach designed to accelerate the generation process of pre-trained diffusion models while maintaining state-of-the-art image quality. It achieves this by:
+
+(1) Improving Efficiency: Requires only a few GPU hours for training. Uses fewer trainable parameters than existing methods. Maintaining High Performance
+
+(2) Achieves state-of-the-art FID and CLIP-Score for few-step image generation on COCO2014 and COCO2017. Significantly reduces the number of sampling steps without compromising image quality.Versatility Across Tasks and Architectures
+
+(3) Supports multiple tasks: text-to-image, inpainting, face-swapping, super-resolution. Works with different backbones, including UNet-based denoisers (SD1.5, SDXL), DiT (Pixart-α), and MMDiT (SD3), as well as adapters.
 
