@@ -21,3 +21,15 @@ Provides theoretical validation to ensure mathematical soundness.
 
 (3) Application in Constrained Generative Modeling: Demonstrates effectiveness in trajectory initialization for path planning and control in autonomous vehicles.
 Shows the versatility of the approach in other constrained generative tasks.
+
+3. Scalable Fingerprinting of Large Language Models: https://arxiv.org/pdf/2502.07760
+The proposed method introduces Perinucleus sampling, a novel approach to scalable, persistent, and harmless model fingerprinting. The key contributions include:
+
+(1) Scalability in Model Fingerprinting: Addresses the need for scalable fingerprinting to combat fingerprint leakage and coalitions attempting to bypass detection.
+Demonstrates the ability to embed 24,576 fingerprints into a Llama-3.1-8B model, which is two orders of magnitude more than existing methods.
+Perinucleus Sampling for Fingerprint Generation
+
+(2) Ensures persistent fingerprints that remain intact even after supervised fine-tuning. Embeds fingerprints in a way that does not degrade model utility.
+Security Enhancements
+
+(3) Theoretically and empirically analyzes security risks in fingerprinting. Shows how scalable fingerprinting can mitigate potential attacks or detection bypass attempts.
