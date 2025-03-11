@@ -1,1 +1,9 @@
 1. FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis
+Federated Learning via Valuable Condensed Knowledge (FedVCK), enhances federated learning (FL) in medical applications by effectively addressing non-IID data challenges while reducing communication costs.
+
+(1) Condensed Knowledge for Efficient Learning: Each client condenses its local knowledge into a small dataset, improving knowledge quality with latent distribution constraints to better handle data heterogeneity.
+(2) Targeted Knowledge Selection: The method identifies and transfers only necessary knowledge, preventing redundant updates and reducing communication frequency.
+(3) Relational Supervised Contrastive Learning: On the server side, a contrastive learning strategy enhances global model updates by leveraging relationships between different knowledge representations.
+(4) Improved Non-IID Robustness & Communication Efficiency: The approach ensures higher performance on heterogeneous medical datasets while significantly minimizing communication overhead.
+
+2.
