@@ -1,5 +1,5 @@
 # AAAI2025
-The summary of AAAI 2025 on diffusion, federal learning.
+The summary of AAAI 2025 interesting papers.
 
 Image Tasks:
 1. Boosting ViT-based MRI Reconstruction from the Perspectives of Frequency Modulation, Spatial Purification, and Scale Diversification.
