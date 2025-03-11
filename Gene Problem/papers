@@ -1,2 +1,10 @@
 1. Bridging Sequence-Structure Alignment in RNA Foundation Models
 
+OmniGenome, is an RNA foundation model (FM) designed to establish strong alignment between RNA sequences and secondary structures, enabling bidirectional mappings between them.
+
+(1) Structure-Contextualized RNA Modelling: OmniGenome integrates sequence-structure alignment, allowing flexible input/output modalities (sequence-to-structure and structure-to-sequence transformations).
+(2) Versatile Applications: Demonstrates effectiveness in RNA design and zero-shot secondary structure prediction, achieving superior Seq2Str and Str2Seq mapping capabilities.
+(3) State-of-the-Art Performance:
+Solved 74% of puzzles on the EternaV2 benchmark, far surpassing existing models (≤3%).
+Achieved leading performance across RNA and DNA benchmarks, even without explicit DNA genome training.
+(4) Improved Genomic Information Flow: Enables seamless interaction between RNA sequences and structures, addressing a critical limitation in existing RNA foundation models.
