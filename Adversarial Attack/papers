@@ -8,3 +8,13 @@ It is an efficient diffusion model-based classifier for adversarial robustness, 
 (3) Optimized Classification Objective: A new classification loss is incorporated into the diffusion process to enhance class separability, improving adversarial robustness.
 (4) Superior Performance with Lower Cost: Extensive evaluations on benchmark datasets show that the method achieves better adversarial robustness than both CNN-based and previous DM-based approaches, with significantly lower computational overhead.
 
+2. A Sample-Level Evaluation and Generative Framework for Model Inversion Attacks
+Model Inversion (MI) attack evaluation and effectiveness by introducing a new metric and a transfer learning framework to improve MI attack performance.
+
+(1) Introduction of Diversity and Distance Composite Score (DDCS): A novel metric that enables sample-level privacy analysis, addressing the limitations of existing MI evaluation methods that focus only on label-level privacy.
+(2) Key Observations from DDCS: The study finds that some training samples are naturally resilient to MI attacks, highlighting the varying vulnerability of individual samples.
+(3) Transfer Learning for Stronger MI Attacks: Proposes an improved MI attack framework that enhances generative capabilities by integrating:
+Entropy loss for better sample diversity.
+Natural gradient descent to refine MI attack optimization.
+(4) Improved Attack Performance: Extensive experiments show that the proposed method enhances state-of-the-art MI attacks, improving key metrics such as DDCS, coverage, and FID.
+Potential for MI Defense: DDCS can also be used to identify vulnerable training samples, enabling unsupervised MI defense strategies.
