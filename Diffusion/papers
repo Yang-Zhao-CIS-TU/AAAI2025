@@ -9,3 +9,15 @@ The proposed method is an efficient, fast, and versatile distillation approach d
 
 (3) Supports multiple tasks: text-to-image, inpainting, face-swapping, super-resolution. Works with different backbones, including UNet-based denoisers (SD1.5, SDXL), DiT (Pixart-α), and MMDiT (SD3), as well as adapters.
 
+2. Constrained Generative Modeling with Manually Bridged Diffusion Models. 
+code: https://arxiv.org/pdf/github.com/plai-group/manually-bridged-models
+The proposed method introduces manual bridges, a novel framework for diffusion-based generative modeling in constrained spaces. The key contributions include:
+
+(1) Expansion of Diffusion Bridge Constraints: Introduces manual bridges, which allow a wider range of practical constraints in diffusion-based generative modeling.
+Develops a mechanism to combine multiple constraints while ensuring they are all respected.
+
+(2) Training Mechanism for Multi-Constraint Diffusion Models: Proposes a method to train diffusion models that simultaneously satisfy multiple constraints and adapt to a given data distribution.
+Provides theoretical validation to ensure mathematical soundness.
+
+(3) Application in Constrained Generative Modeling: Demonstrates effectiveness in trajectory initialization for path planning and control in autonomous vehicles.
+Shows the versatility of the approach in other constrained generative tasks.
