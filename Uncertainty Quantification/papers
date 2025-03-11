@@ -1,1 +1,8 @@
+1. CUQDS: Conformal Uncertainty Quantification under Distribution Shift for Trajectory Prediction
+The CUQDS (Conformal Uncertainty Quantification under Distribution Shift) framework is designed to enhance trajectory prediction models for autonomous vehicles by improving both prediction accuracy and uncertainty quantification under potential distribution shifts. It achieves this through two key components:
+
+(1) Learning-based Gaussian Process Regression (GPR) Module: Models the output distribution of any existing trajectory prediction neural network. Incorporates an additional loss term to reduce the estimated uncertainty during training.
+Statistical-based Conformal P Control Module
+
+(2) Calibrates the estimated uncertainty from the GPR module in an online setting. Ensures robustness against potential distribution shifts between training and testing data.
 
