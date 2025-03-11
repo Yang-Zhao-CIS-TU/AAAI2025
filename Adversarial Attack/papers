@@ -1,3 +1,10 @@
 1. Efficient Image-to-Image Diffusion Classifier for Adversarial Robustness
 code: https://github.com/hfmei/IDC
 
+It is an efficient diffusion model-based classifier for adversarial robustness, addressing the high computational cost of traditional DM-based defense methods.
+
+(1) Redesigning the Diffusion Framework: Instead of generating high-quality images, the model is adapted to predict distinguishable image labels using an image translation framework that maps inputs to orthogonal image labels.
+(2) Efficient Image-to-Image Diffusion Classifier: A pruned U-Net structure and reduced diffusion timesteps make the model computationally efficient while maintaining robustness.
+(3) Optimized Classification Objective: A new classification loss is incorporated into the diffusion process to enhance class separability, improving adversarial robustness.
+(4) Superior Performance with Lower Cost: Extensive evaluations on benchmark datasets show that the method achieves better adversarial robustness than both CNN-based and previous DM-based approaches, with significantly lower computational overhead.
+
