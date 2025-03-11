@@ -1,1 +1,11 @@
 1. MRI Reconstruction: https://arxiv.org/abs/2412.10776
+
+Boosting ViT-based MRI Reconstruction from the Perspectives of Frequency Modulation, Spatial Purification, and Scale Diversification
+"FPS-Former", is a Vision Transformer (ViT)-based framework designed to improve accelerated MRI reconstruction by addressing three key limitations of existing ViT-based approaches:
+
+(1) Enhancing High-Frequency Information: ViTs struggle with capturing fine textures and edges. To address this, FPS-Former introduces a Frequency Modulation Attention Module that adaptively re-calibrates frequency components using a Laplacian pyramid.
+
+(2) Reducing Computational Redundancy: Standard multi-head self-attention (MSA) in ViTs processes both relevant and irrelevant tokens, introducing noise and increasing computational costs. FPS-Former proposes a Spatial Purification Attention Module to refine attention by focusing only on closely related tokens.
+
+(3) Improving Multi-Scale Feature Representation: The naive feed-forward network (FFN) in ViTs lacks the ability to capture multi-scale information. FPS-Former integrates a Hybrid-Scale Fusion Strategy in the FFN to enhance feature learning across different scales.
+
