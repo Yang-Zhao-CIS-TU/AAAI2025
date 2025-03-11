@@ -3,3 +3,10 @@
 2. LLM-RG4: Flexible and Factual Radiology Report Generation across Diverse Input Contexts
 code: https://github.com/zh-Wang-Med/LLM-RG4
 
+LLM-RG4, is a large language model (LLM)-based framework for radiology report generation (RRG) that enhances flexibility and reduces hallucinations by aligning input-output structures with clinical demands.
+
+(1）New Dataset (MIMIC-RG4): A data generation pipeline is developed to create a dataset with four common radiology report drafting scenarios, ensuring perfectly matched inputs and outputs.
+(2）LLM-Based Report Generation: Leverages LLM’s instruction-following capabilities and general knowledge to improve adaptability in radiology report drafting.
+(3）Adaptive Token Fusion Module: Introduces a mechanism to handle diverse input combinations efficiently, while minimizing the computational burden.
+(4）Token-Level Loss Weighting Strategy: Guides the model’s attention toward clinically relevant and uncertain descriptions, improving report accuracy.
+(5）State-of-the-Art Performance: Experimental results on MIMIC-RG4 and MIMIC-CXR datasets show that LLM-RG4 outperforms existing models in both clinical efficiency and natural language generation, while significantly reducing input-agnostic hallucinations.
